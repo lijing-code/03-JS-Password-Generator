@@ -20,7 +20,8 @@ What I've learned:
 * The live URL is : https://lijing-code.github.io/03-JS-Password-Generator/
 
 ## Usage
-    
+<img width="1436" alt="截屏2021-09-15 上午12 39 26" src="https://user-images.githubusercontent.com/68092036/133372035-ccb86358-f1a8-4d3b-9180-6020eeb247a0.png">
+
 ## Credits
 * MDN Web Docs - Window: https://developer.mozilla.org/en-US/docs/Web/API/Window
 * MDN Web Docs - Expressions and Operators - Addition assignment: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition_assignment
