@@ -15,7 +15,7 @@ var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789";
 var specialChars = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 
-var userChoice =0 // Set up an variable to store the user entered number. 
+var userChoice =0 // Set up a variable to store the user entered number. 
 
 // Create a function to generate the user's password criterias.
 function returnCustomerOptions() {
