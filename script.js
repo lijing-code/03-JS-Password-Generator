@@ -15,9 +15,9 @@ var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789";
 var specialChars = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 
-var userChoice =0 // Set up an variable to store the user entered number. 
+var userChoice = 0 // Set up a variable to store the user entered number. 
 
-// Create a function to generate the user's password criterias.
+// Create a function to generate the user's password criteria.
 function returnCustomerOptions() {
   var passwordDataBase = []; // Create an array to store the criteria that the user choose to generate the password.
   var userChoiceFlag = true;
@@ -25,10 +25,9 @@ function returnCustomerOptions() {
     // Start generate the password with a prompt.
     userChoice = prompt("How many characters do you want to generate the password?");
     // The password length should between 8 ~ 128 characters
-    if (userChoice>=8 && userChoice <=128){
+    if (userChoice >= 8 && userChoice <= 128){
       window.alert("Let's start generating a password!");
-      // Set up an empty array to save the criterias that the user choose to generate the password.
-      
+
       var is_true = window.confirm("Do you agree to add lowercase in your password?");
       if (is_true){
         passwordDataBase.push(lowerCase); // add var lowerCase (string) in array
@@ -57,7 +56,7 @@ function returnCustomerOptions() {
         window.alert("Please select at least one criteria to inclued in the password.")
         userChoiceFlag = true;
       }
-    // If the user choose the length is out of the range, make an alert, and re-enter the length of the password.
+    // If the user choose a length that is out of the range, make an alert, and ask a length of the password again.
     }else{
       window.alert("The length of the password should between 8 and 128. Please enter again.");
       userChoiceFlag = true;
